@@ -1,6 +1,4 @@
 # ABOUT
-
- <br/>
  
 ### There are 2 database Schema. 1. AutoDealer           2. Preowned Car Dealer
 ### We are integrating the conceptual Schema of these two available schema.
