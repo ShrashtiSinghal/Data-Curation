@@ -46,4 +46,4 @@ Final Integrated Schema: [Integrated Schema](https://www.draw.io/?lightbox=1&hig
  
  
 ###   XML File for AutoDealer, Pre-ownwd Car Dealer and Integrated Datbase: [XML](autoDealer.xml)
-###   XML File for the Integration steps: [XML](Integration Steps.xml)
+###   XML File for the Integration steps: [XML](IntegrationSteps.xml)
