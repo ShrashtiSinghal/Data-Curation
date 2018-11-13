@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="SYLLABUS">
+      <element name="TITLE">
+        <text/>
+      </element>
+      <element name="COURSE_DESCRIPTION">
+        <text/>
+      </element>
+      <element name="COURSE_GOALS_AND_OBJECTIVES">
+        <text/>
+      </element>
+      <element name="TEXTBOOKS_AND_READINGS">
+        <text/>
+      </element>
+      <element name="COURSE_OUTLINE">
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="TABLE1"/>
+          </choice>
+        </oneOrMore>
+      </element>
+      <element name="ASSIGNMENTS_DEADLINES">
+        <text/>
+      </element>
+      <element name="ELEMENTS_OF_THIS_COURSE">
+        <oneOrMore>
+          <choice>
+            <text/>
+            <element name="EXCERCISES">
+              <text/>
+            </element>
+            <element name="FINAL_PROJECT">
+              <text/>
+            </element>
+            <element name="NOTE">
+              <text/>
+            </element>
+            <element name="ORIENTATION_QUIZ">
+              <text/>
+            </element>
+            <element name="VIDEOS">
+              <text/>
+            </element>
+            <element name="WEEKLY_QUIZZES">
+              <text/>
+            </element>
+          </choice>
+        </oneOrMore>
+      </element>
+      <element name="GRADING_DISTRIBUTION_AND_SCALE">
+        <oneOrMore>
+          <choice>
+            <text/>
+            <element name="GRADING_DISTRIBUTION">
+              <oneOrMore>
+                <choice>
+                  <text/>
+                  <ref name="TABLE2"/>
+                </choice>
+              </oneOrMore>
+            </element>
+            <element name="GRADING_SCALE">
+              <oneOrMore>
+                <choice>
+                  <text/>
+                  <ref name="TABLE3"/>
+                </choice>
+              </oneOrMore>
+            </element>
+          </choice>
+        </oneOrMore>
+      </element>
+      <element name="CODE_POLICIES">
+        <text/>
+      </element>
+      <element name="INTEGRITY">
+        <text/>
+      </element>
+      <element name="DISABILITY">
+        <text/>
+      </element>
+      <element name="DEADLINES">
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="DEADLINES_TABLE"/>
+          </choice>
+        </oneOrMore>
+      </element>
+      <element name="LATE_POLICY">
+        <text/>
+      </element>
+      <element name="CALENDAR">
+        <text/>
+      </element>
+      <element name="END_NOTE">
+        <text/>
+      </element>
+    </element>
+  </start>
+  <define name="TABLE1">
+    <element name="TABLE1">
+      <optional>
+        <attribute name="DURATION"/>
+      </optional>
+      <optional>
+        <attribute name="TOPICS"/>
+      </optional>
+      <optional>
+        <attribute name="WEEK">
+          <data type="NMTOKEN"/>
+        </attribute>
+      </optional>
+      <optional>
+        <ref name="TABLE1"/>
+      </optional>
+    </element>
+  </define>
+  <define name="TABLE2">
+    <element name="TABLE2">
+      <optional>
+        <attribute name="ASSIGNMENT">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="ASSIGNMENT1"/>
+      </optional>
+      <optional>
+        <attribute name="PERCENT_OF_THE_FINAL_GRADE"/>
+      </optional>
+      <optional>
+        <ref name="TABLE2"/>
+      </optional>
+    </element>
+  </define>
+  <define name="TABLE3">
+    <element name="TABLE3">
+      <optional>
+        <attribute name="LETTER_GRADE"/>
+      </optional>
+      <optional>
+        <attribute name="PERCENT_NEEDED"/>
+      </optional>
+      <optional>
+        <ref name="TABLE3"/>
+      </optional>
+    </element>
+  </define>
+  <define name="DEADLINES_TABLE">
+    <element name="DEADLINES_TABLE">
+      <optional>
+        <attribute name="ASSIGNMENT2"/>
+      </optional>
+      <optional>
+        <attribute name="HARD_DEADLINE"/>
+      </optional>
+      <optional>
+        <attribute name="RELEASE_DATE"/>
+      </optional>
+      <optional>
+        <ref name="DEADLINES_TABLE"/>
+      </optional>
+    </element>
+  </define>
+</grammar>

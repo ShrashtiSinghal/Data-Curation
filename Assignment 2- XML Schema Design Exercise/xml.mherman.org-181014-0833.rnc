@@ -1,0 +1,59 @@
+default namespace = ""
+
+start =
+  element SYLLABUS {
+    element TITLE { text },
+    element COURSE_DESCRIPTION { text },
+    element COURSE_GOALS_AND_OBJECTIVES { text },
+    element TEXTBOOKS_AND_READINGS { text },
+    element COURSE_OUTLINE { (text | TABLE1)+ },
+    element ASSIGNMENTS_DEADLINES { text },
+    element ELEMENTS_OF_THIS_COURSE {
+      (text
+       | element EXCERCISES { text }
+       | element FINAL_PROJECT { text }
+       | element NOTE { text }
+       | element ORIENTATION_QUIZ { text }
+       | element VIDEOS { text }
+       | element WEEKLY_QUIZZES { text })+
+    },
+    element GRADING_DISTRIBUTION_AND_SCALE {
+      (text
+       | element GRADING_DISTRIBUTION { (text | TABLE2)+ }
+       | element GRADING_SCALE { (text | TABLE3)+ })+
+    },
+    element CODE_POLICIES { text },
+    element INTEGRITY { text },
+    element DISABILITY { text },
+    element DEADLINES { (text | DEADLINES_TABLE)+ },
+    element LATE_POLICY { text },
+    element CALENDAR { text },
+    element END_NOTE { text }
+  }
+TABLE1 =
+  element TABLE1 {
+    attribute DURATION { text }?,
+    attribute TOPICS { text }?,
+    attribute WEEK { xsd:NMTOKEN }?,
+    TABLE1?
+  }
+TABLE2 =
+  element TABLE2 {
+    attribute ASSIGNMENT { xsd:NCName }?,
+    attribute ASSIGNMENT1 { text }?,
+    attribute PERCENT_OF_THE_FINAL_GRADE { text }?,
+    TABLE2?
+  }
+TABLE3 =
+  element TABLE3 {
+    attribute LETTER_GRADE { text }?,
+    attribute PERCENT_NEEDED { text }?,
+    TABLE3?
+  }
+DEADLINES_TABLE =
+  element DEADLINES_TABLE {
+    attribute ASSIGNMENT2 { text }?,
+    attribute HARD_DEADLINE { text }?,
+    attribute RELEASE_DATE { text }?,
+    DEADLINES_TABLE?
+  }

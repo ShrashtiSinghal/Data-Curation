@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="SYLLABUS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TITLE"/>
+        <xs:element ref="COURSE_DESCRIPTION"/>
+        <xs:element ref="COURSE_GOALS_AND_OBJECTIVES"/>
+        <xs:element ref="TEXTBOOKS_AND_READINGS"/>
+        <xs:element ref="COURSE_OUTLINE"/>
+        <xs:element ref="ASSIGNMENTS_DEADLINES"/>
+        <xs:element ref="ELEMENTS_OF_THIS_COURSE"/>
+        <xs:element ref="GRADING_DISTRIBUTION_AND_SCALE"/>
+        <xs:element ref="CODE_POLICIES"/>
+        <xs:element ref="INTEGRITY"/>
+        <xs:element ref="DISABILITY"/>
+        <xs:element ref="DEADLINES"/>
+        <xs:element ref="LATE_POLICY"/>
+        <xs:element ref="CALENDAR"/>
+        <xs:element ref="END_NOTE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TITLE" type="xs:string"/>
+  <xs:element name="COURSE_DESCRIPTION" type="xs:string"/>
+  <xs:element name="COURSE_GOALS_AND_OBJECTIVES" type="xs:string"/>
+  <xs:element name="TEXTBOOKS_AND_READINGS" type="xs:string"/>
+  <xs:element name="COURSE_OUTLINE">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="TABLE1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ASSIGNMENTS_DEADLINES" type="xs:string"/>
+  <xs:element name="ELEMENTS_OF_THIS_COURSE">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="EXCERCISES"/>
+        <xs:element ref="FINAL_PROJECT"/>
+        <xs:element ref="NOTE"/>
+        <xs:element ref="ORIENTATION_QUIZ"/>
+        <xs:element ref="VIDEOS"/>
+        <xs:element ref="WEEKLY_QUIZZES"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EXCERCISES" type="xs:string"/>
+  <xs:element name="FINAL_PROJECT" type="xs:string"/>
+  <xs:element name="NOTE" type="xs:string"/>
+  <xs:element name="ORIENTATION_QUIZ" type="xs:string"/>
+  <xs:element name="VIDEOS" type="xs:string"/>
+  <xs:element name="WEEKLY_QUIZZES" type="xs:string"/>
+  <xs:element name="GRADING_DISTRIBUTION_AND_SCALE">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="GRADING_DISTRIBUTION"/>
+        <xs:element ref="GRADING_SCALE"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GRADING_DISTRIBUTION">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="TABLE2"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GRADING_SCALE">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="TABLE3"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CODE_POLICIES" type="xs:string"/>
+  <xs:element name="INTEGRITY" type="xs:string"/>
+  <xs:element name="DISABILITY" type="xs:string"/>
+  <xs:element name="DEADLINES">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="DEADLINES_TABLE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LATE_POLICY" type="xs:string"/>
+  <xs:element name="CALENDAR" type="xs:string"/>
+  <xs:element name="END_NOTE" type="xs:string"/>
+  <xs:element name="TABLE1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="TABLE1"/>
+      </xs:sequence>
+      <xs:attribute name="DURATION"/>
+      <xs:attribute name="TOPICS"/>
+      <xs:attribute name="WEEK" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TABLE2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="TABLE2"/>
+      </xs:sequence>
+      <xs:attribute name="ASSIGNMENT" type="xs:NCName"/>
+      <xs:attribute name="ASSIGNMENT1"/>
+      <xs:attribute name="PERCENT_OF_THE_FINAL_GRADE"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TABLE3">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="TABLE3"/>
+      </xs:sequence>
+      <xs:attribute name="LETTER_GRADE"/>
+      <xs:attribute name="PERCENT_NEEDED"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DEADLINES_TABLE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="DEADLINES_TABLE"/>
+      </xs:sequence>
+      <xs:attribute name="ASSIGNMENT2"/>
+      <xs:attribute name="HARD_DEADLINE"/>
+      <xs:attribute name="RELEASE_DATE"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
