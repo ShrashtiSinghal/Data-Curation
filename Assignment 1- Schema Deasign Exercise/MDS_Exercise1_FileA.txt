@@ -1,0 +1,10 @@
+1	vHxfKmtZ8bSd4JqP5y	2017	Ford	Expedition	King Ranch	4WD	White (Pearl)	4 door	Internal Combustion	" $60,615.00 "
+2	Ab3F3AR5QX4jmxQGNX	2017	Ford	Fusion 	Titanium	FWD	Gold	4 door	Electric / Internal Combustion Hybrid	" $30,740.00 "
+3	S7enznmKTrKsbm4ceC	2017	Tesla	Model S		P100D	AWD	White	4 door	Electric	" $135,000.00 "
+4	ZdspCskTUsEMuA5xj4	2017	Tesla	Model S 	60	AWD	Gray	4 door	Electric	" $68,000.00 "
+5	QMsFeqUT38MFLV4NxW	2018	Tesla	Model S		75D	AWD	White	4 door	Electric	" $74,500.00 "
+6	eLqdyxVVA2q5vRZNg5	2018	Tesla	Model S		100D	AWD	White	4 door	Electric	" $94,000.00 "
+7	UW7W4XUcxaMBL2PHqS	2018	Toyota	Prius		FWD	Blue	4 Door Sedan	Electric / Internal Combustion Hybrid	" $23,475.00 "
+8	AQm44N9vhHn6DsWvsr	2018	Toyota	Prius		FWD	White	4 Door Sedan	Electric / Internal Combustion Hybrid	" $23,475.00 "
+9	amdRVQn8AVfrdP48CY	2018	Toyota	Prius		FWD	Silver	4 Door Sedan	Electric / Internal Combustion Hybrid	" $23,475.00 "
+10	3T3zsvzUp5Vm5r2SGm	2018	Toyota	Prius		FWD	Black	5 Door Hatchback	Electric / Internal Combustion Hybrid	" $29,685.00 "

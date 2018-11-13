@@ -1,0 +1,11 @@
+ID,LastName,FirstName,MI,Address,City,State,Country,SaleDate,Model,Year,Color,Engine,VIN,MSRP,Discount,TradeIn,TradeInValue,PurchasePrice,RepeatCustomer
+1,Potter,Harry,D,2008 Williams Dr,Chicago,IL,USA,9/8/2017,Tesla Model S,2017,White,Electric,S7enznmKTrKsbm4ceC,"$135,000.00 ",,Yes,"$7,500.00 ","$127,500.00 ",
+2,Granger,Hermione,S,190 Clemton Ave,,IL,USA,10/9/2018,Toyota Prius,2018,Blue,Hybrid,UW7W4XUcxaMBL2PHqS,"$23,475.00 ",EndofYear,,,"$19,500.00 ",
+3,Malfoy,Draco,M,987 Withrop Lane,Urbana,IL,USA,8/8/2017,Ford Expedition King Ranch,2017,White (Pearl),Internal Combustion,vHxfKmtZ8bSd4JqP5y,"$60,615.00 ",,,,,
+4,Longbottom,Neville,R,34 Lark Meadow Dr,Savoy,,USA,8/9/2017,Tesla Model S,2017,Gray,Electric,ZdspCskTUsEMuA5xj4,"$68,000.00 ",EndofYear,,,"$62,000.00 ",
+5,Pettigrew,Peter,,55 Shadow Canyon Trl,Indianapolis,IN,USA,10/20/2017,Ford Fusion Titanium,2017,Gold,Hybrid,Ab3F3AR5QX4jmxQGNX,"$30,740.00 ",EndofYear,Yes,"$1,250.00 ","$26,512.00 ",
+6,Lupin,Remus,W,911 Megellan Ave,Bloomington,IL,USA,2/28/2018,Toyota Prius,2018,White,Hybrid,AQm44N9vhHn6DsWvsr,"$23,475.00 ",,,,"$23,475.00 ",
+7,Weasley,Ronald,R,54 Lane Ave,Chicago,IL,USA,6/15/2018,Toyota Prius,2018,Silver,Hybrid,amdRVQn8AVfrdP48CY,"$23,475.00 ",,Yes,"$2,500.00 ","$20,975.00 ",
+8,Weasley,Ginny,,8890 Winston St,Champaign,IL,USA,5/5/2018,Tesla Model S,2018,White,Electric,eLqdyxVVA2q5vRZNg5,"$94,000.00 ",First Time Driver,,,"$89,300.00 ",
+9,Lovegood,Luna,D,245-B Church St,Urbana,IL,,4/3/2018,Toyota Prius,2016,Black,Hybrid,3T3zsvzUp5Vm5r2SGm,,Repeat Customer,,,"$25,232.25 ",Yes
+10,Dumbledore,Albus,R,557 Rodeo Trl,Rantoul,IL,,1/21/2018,Tesla Model S,2016,White,Electric,QMsFeqUT38MFLV4NxW,"$74,500.00 ",Senior Citizen,Yes,"$5,000.00 ","$57,685.00 ",
