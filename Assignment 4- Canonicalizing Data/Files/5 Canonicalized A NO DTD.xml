@@ -1,0 +1,220 @@
+<consumerComplaints>
+
+	<complaint>
+		<company>
+			<companyName>U.S. BANCORP</companyName>
+			<companyState>AZ</companyState>
+			<companyZip>85008</companyZip>
+		</company>
+		<event>
+			<received_date>2012-01-17</received_date>
+			<sentToCompany_date>2012-01-22</sentToCompany_date>
+		</event>
+		<id>14038</id>
+		<issue>
+			<issueType>Loan servicing, payments, escrow account</issueType>
+		</issue>
+		<product>
+			<productType>Mortgage</productType>
+			<subproduct>Other mortgage</subproduct>
+		</product>
+		<response>
+			<consumerDisputed>Y</consumerDisputed>
+			<responseType>Closed without relief</responseType>
+			<timely>Y</timely>
+		</response>
+		<submittedVia>Referral</submittedVia>
+	</complaint>
+
+	<complaint>
+		<company>
+			<companyName>U.S. BANCORP</companyName>
+			<companyState>MN</companyState>
+			<companyZip>48322</companyZip>
+		</company>
+		<event>
+			<received_date>2013-11-13</received_date>
+			<sentToCompany_date>2013-11-20</sentToCompany_date>
+		</event>
+		<id>596562</id>
+		<issue>
+			<issueType>Loan servicing, payments, escrow account</issueType>
+		</issue>
+		<product>
+			<productType>Mortgage</productType>
+			<subproduct>Conventional adjustable mortgage</subproduct>
+		</product>
+		<response>
+			<consumerDisputed>N</consumerDisputed>
+			<publicResponse></publicResponse>
+			<responseType>Closed with monetary relief</responseType>
+			<timely>Y</timely>
+		</response>
+		<submittedVia>Phone</submittedVia> 
+	</complaint>
+	
+	<complaint>
+		<company>
+			<companyName>M&amp;T Bank Corporation</companyName>
+			<companyState>MI</companyState>
+			<companyZip>48382</companyZip>
+		</company>
+		<event>
+			<received_date>2014-03-12</received_date>
+			<sentToCompany_date>2014-03-17</sentToCompany_date>
+		</event>
+		<id>759222</id>
+		<issue>
+			<issueType>Loan modification,collection,foreclosure</issueType>
+		</issue>
+		<product>
+			<productType>Mortgage</productType>
+			<subproduct>Other mortgage</subproduct>
+		</product>
+		<response>
+			<consumerDisputed>Y</consumerDisputed>
+			<responseType>Closed with explanation</responseType>
+			<timely>Y</timely>
+		</response>
+		<submittedVia>Referral</submittedVia>  
+	</complaint>
+
+	<complaint>
+		<company>
+			<companyName>Navient Solutions, LLC</companyName>
+			<companyState>DE</companyState>
+			<companyZip>19802</companyZip>
+		</company>
+		<event>
+			<received_date>2014-05-05</received_date>
+			<sentToCompany_date>2014-05-06</sentToCompany_date>
+		</event>
+		<id>837784</id>
+		<issue>
+			<issueType>Dealing with my lender or service</issueType>
+			<subissue>Need information about my balance/terms</subissue>
+		</issue>
+		<product>
+			<productType>Student loan</productType>
+			<subproduct>non-federal student loan</subproduct>
+		</product>
+		<response>
+			<consumerDisputed>N</consumerDisputed>
+			<responseType>Closed with monetary relief</responseType>
+			<timely>Y</timely>
+		</response>
+		<submittedVia>Web</submittedVia>
+	</complaint>
+	
+	<complaint>
+		<company>
+			<companyName>Round Two Recovery</companyName>
+			<companyState>OK</companyState>
+			<companyZip>73135</companyZip>
+		</company>
+		<consumerNarrative>I am a veteran widow whom is a recipient of Maryland State Medicaid and have been for several years. Therefore, the State is responsible for my health bills at XXXX cost to me.</consumerNarrative>
+		<event>
+			<received_date>2016-09-15</received_date>
+			<sentToCompany_date>2016-09-15</sentToCompany_date>
+		</event>
+		<id>2112558</id>
+		<issue>
+			<issueType>Continued attempts to collect debt not owed</issueType>
+			<subissue>Debt is not mine</subissue>
+		</issue>
+		<product>
+			<productType>Debt collection</productType>
+			<subproduct>Medical</subproduct>
+		</product>
+		<response>
+			<consumerDisputed>N</consumerDisputed>
+			<responseType>Untimely response</responseType>
+			<timely>N</timely>
+		</response>
+		<submittedVia>Web</submittedVia>
+	</complaint>
+	
+	<complaint>
+		<company>
+			<companyName>Experian Information Solutions Inc.</companyName>
+			<companyState>NY</companyState>
+			<companyZip>10020</companyZip>
+		</company>
+		<consumerNarrative>Checked my credit report after filing complaint with CFPB on XXXX. Was finally able to get access to the dispute forms and the XXXX XXXX account scheduled for deletion XX/XX/XXXX2017 was still on record. After already registering with my report number, name and social security and placing the dispute in the " dispute cart '', when I attempted to upload as instructed, I was taken to another form which requested the same ( and more ) information which was already a matter of record in order to get access to the report in the first place. Screenshots attached. Designed to discourage?</consumerNarrative>
+		<event>
+			<received_date>2017-02-03</received_date>
+			<sentToCompany_date>2017-02-03</sentToCompany_date>
+		</event>
+		<id>2327502</id>
+		<issue>
+			<issueType>Incorrect information on credit report</issueType>
+			<subissue>Account status</subissue>
+		</issue>
+		<product>
+			<productType>Credit reporting</productType>
+		</product>
+		<response>
+			<consumerDisputed>N</consumerDisputed>
+			<publicResponse>Company has responded to the consumer and the CFPB and chooses not to provide a public response</publicResponse>
+			<responseType>Closed with non-monetary relief</responseType>
+			<timely>Y</timely>
+		</response>
+		<submittedVia>Web</submittedVia>
+	</complaint>
+ 
+	<complaint>
+		<company>
+			<companyName>Wells Fargo &amp; Company</companyName>
+			<companyState>AZ</companyState>
+			<companyZip>85043</companyZip>
+		</company>
+		<consumerNarrative>I deposited what turned out to be a fraudulent check drawn on Wells Fargo by mobile deposit to my savings account at Wells Fargo on XXXX at XXXX XXXX Time for {$2400.00}. They gave me full availability of the {$2400.00} on XXXX at which time I withdrew {$2200.00} and the bank then returned the deposited check on XXXX creating an overdraft in my account of over {$2000.00}. Wells Fargo rep explained that they do not process mobile deposits until late the night one day after the deposit was made. This means they honored the withdrawal request before they processed the transaction. That gave me the false assurance that the deposited check was good. The cash is gone to the perpetrator and now they want me to cover the overdraft. The fact they wait a whole business day before processing these deposits is for their convenience and the consumer should not be held accountable for the consequences of this delay. Also UCC 4-301 ( b ) addresses the final payment of on-us checks deposited and states that the payor bank has until midnight of the next banking day to decide whether to honor the check. If they don't act by midnight deadline, they lose the right to dishonor the check. 4-214 ( c ), 4-301 ( b ). The mobile deposit confirmation states " The following mobile deposit was made on XXXX at XXXX Time '' and her account statement shows the deposit under the posting date of XXXX. Therefore, applying UCC 4-214 ( c ), the deposited check drawn on Wells Fargo should have been returned and charged back under the posting date of XXXX. It was not. The chargeback is posted under processing date of XXXX.</consumerNarrative>
+		<event>
+			<received_date>2018-02-23</received_date>
+			<sentToCompany_date>2018-02-23</sentToCompany_date>
+		</event>
+		<id>2356421</id>
+		<issue>
+			<issueType>Deposits and withdrawals</issueType>
+		</issue>
+		<product>
+			<productType>Bank account or service</productType>
+			<subproduct>Savings account</subproduct>
+		</product>
+		<response>
+			<consumerDisputed>N</consumerDisputed>
+			<publicResponse>Company has responded to the consumer and the CFPB and chooses not to provide a public response</publicResponse>
+			<responseType>Closed with explanation</responseType>
+			<timely>N</timely>
+		</response>
+		<submittedVia>Web</submittedVia>
+	</complaint>
+
+	<complaint>
+		<company>
+			<companyName>BARCLAYS BANK DELAWARE</companyName>
+			<companyState>MA</companyState>
+			<companyZip>19904</companyZip>
+		</company>
+		<consumerNarrative>Was a happy XXXX card member for years, in late XX/XX/2016 XXXX converted the card portfolio to Barclaycard ( XXXX ). We almost never carry a balance over, but we started to in XX/XX/XXXX and Barclay has been overcharging the interest expense every month. Instead of charging interest on the carried balance they charged it on the entire average balance. So if we charged {$3000.00} last month and carried {$3000.00} from previous months then they charged us 15 % of the {$6000.00} = {$75.00}, should have been {$37.00} in interest charges. They are double dipping, getting the interchange fee ( 1.5 % of purchase, equal to an 18 % apr ), plus they are getting the interest on the purchases at 15 %, that is the equivalent of an 33 % interest charge. I feel this practice is very unethical, if not illegal. We converted, not by our choice, from XXXX to Barclaycard MasterCard, so if we leave we lose all the points we acquired in previous years. Completely unfair and is why the big financials have the hated reputation they have now. Hope you folks over there can investigate.</consumerNarrative>
+		<event>
+			<received_date>2017-02-28</received_date>
+			<sentToCompany_date>2017-02-28</sentToCompany_date>
+		</event>
+		<id>2364257</id>
+		<issue>
+			<issueType>Other fee</issueType>
+		</issue>
+		<product>
+			<productType>Credit card</productType>
+		</product>
+		<response>
+			<consumerDisputed>Y</consumerDisputed>
+			<publicResponse>Company has responded to the consumer and the CFPB and chooses not to provide a public response</publicResponse>
+			<responseType>Closed with explanation</responseType>
+			<timely>Y</timely>
+		</response>
+		<submittedVia>Web</submittedVia>
+	</complaint>
+
+</consumerComplaints>
