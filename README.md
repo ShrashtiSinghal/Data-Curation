@@ -1,6 +1,6 @@
 # Data-Curation
 <br/>
-The assignments done here are a part of homework given in <br/>
+The assignments done here are a part of homework given in <br/><br/>
 Degree: Masters of Computer Science- Data Science<br/>
 Course: Foundations of Data Curation <br/>
 Course ID: IS 531/ CS 598<br/>
